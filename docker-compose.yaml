@@ -8,3 +8,4 @@ services:
       target: cleaner
     volumes:
       - ./src:/src
+      - ./cleaner:/cleaner
