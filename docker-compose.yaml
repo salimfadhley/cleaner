@@ -2,10 +2,12 @@ version: '3.7'
 
 services:
   cleaner:
-    image: salimfadhley/cleaner:latest
+    image: "salimfadhley/cleaner:latest"
     build:
       context: .
       target: cleaner
     volumes:
       - ./src:/src
       - ./cleaner:/cleaner
+  python:
+    image: "python:latest"
