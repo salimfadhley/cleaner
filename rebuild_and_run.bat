@@ -1,1 +1,1 @@
-docker-compose build && docker-compose run --rm cleaner
+cls && docker-compose build && docker-compose run --rm cleaner
